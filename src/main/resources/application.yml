@@ -1,0 +1,14 @@
+spring:
+    application:
+        name: codeChallenge
+    profiles:
+        active: dev      
+ 
+    
+server:
+    port: 9000
+    
+springfox:
+  documentation:
+    swagger-ui:
+      base-url: /documentation
